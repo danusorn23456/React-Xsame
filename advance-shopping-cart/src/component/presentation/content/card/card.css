@@ -1,0 +1,47 @@
+.card-content{
+    padding:1rem;
+    overflow: hidden;
+}
+
+.card{
+    transition: all 0.3s linear;
+    border-right: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219); 
+}
+
+.product-img{
+    height: 25vh;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.product-img:hover{
+    transform: translate(-30px,10px) rotate(5deg) scale(1.2);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.price{
+    text-align: end;
+}
+
+.product-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-model{
+    color:rgb(194, 194, 194);
+}
+
+.designer{
+    color:rgb(98, 98, 98);
+}
+
+.card:hover{
+    background-color: rgb(245, 245, 245);
+}

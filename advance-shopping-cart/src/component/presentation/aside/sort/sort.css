@@ -1,0 +1,23 @@
+.sort{
+    padding: 2rem;
+    place-content: center;
+    background-color: white;
+}
+
+.label-header {
+    font-weight: bold;
+}
+
+.selection {
+    width: 100%;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(70, 70, 70);
+}
+
+.selection:active,.selection:focus,.selection:visited{
+    border: none;
+    outline: none;
+}

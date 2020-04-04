@@ -1,0 +1,13 @@
+.route{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.route-path{
+    color:black;
+}
+
+.prev{
+    opacity: 40%;
+}

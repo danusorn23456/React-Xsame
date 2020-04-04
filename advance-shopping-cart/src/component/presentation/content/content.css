@@ -1,0 +1,8 @@
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 50vh;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+

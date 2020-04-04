@@ -1,0 +1,21 @@
+.main-header{
+    width: 100vw;
+    display: grid;
+}
+
+.second-header{
+    display: grid;
+    grid-template:
+    'anchor search' 1fr/
+    1fr 4fr;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.route{
+    grid-area: anchor;
+}
+
+.search{
+    grid-area: search;
+}
+

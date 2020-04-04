@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+[class~="cart"]{
+    margin-left: auto;
+}
+
+[class ~= "logo"]{
+    text-align: center;
+    font-size: 28px;
+}
+

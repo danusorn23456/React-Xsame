@@ -1,0 +1,15 @@
+.rectangle-box{
+    width: 10vw;
+    height: 6vw;
+    background-color: black;
+    display: grid;
+    place-content: center;
+}
+
+p{
+    color:white;
+}
+
+.number{
+    color:rgb(233, 152, 2);
+}
