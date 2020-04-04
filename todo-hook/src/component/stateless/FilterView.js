@@ -4,32 +4,23 @@ const FilterView = ({Option,Filter}) => {
   return (
     <div className="filter-wrapper">
       <ul className="filter-menu">
-        <li className="filter-list" style={{ display: `inline` }}>
+        <li className="filter-list">
           <button className={`filter-item ${Option === 'all' ? 'active' : ''}`}
-            onClick={event => {
-              event.preventDefault();
-              Filter("all");
-            }}
-          >
+            onClick={() => Filter("all")}
+            >
             All
           </button>
         </li>
-        <li className="filter-list" style={{ display: `inline` }}>
+        <li className="filter-list">
           <button className={`filter-item ${Option === 'pending' ? 'active' : ''}`}
-            onClick={event => {
-              event.preventDefault();
-              Filter("pending");
-            }}
+            onClick={() => Filter("pending")}
           >
             Pending
           </button>
         </li>
-        <li className="filter-list" style={{ display: `inline` }}>
+        <li className="filter-list">
           <button className={`filter-item ${Option === 'complete' ? 'active' : ''}`}
-            onClick={event => {
-              event.preventDefault();
-              Filter("complete");
-            }}
+          onClick={() => Filter("complete")}
           >
             Complete
           </button>

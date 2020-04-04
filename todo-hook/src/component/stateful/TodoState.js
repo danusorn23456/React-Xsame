@@ -10,8 +10,8 @@ export default initialValue => {
       setTodos([...todos, { title: todo, isComplete: false }]);
     },
     deleteTodo: index => {
-      const reStateTodo = todos.filter((item, _index) => _index !== index);
-      setTodos(reStateTodo);
+      const oldStateTodo = todos.filter((item, _index) => _index !== index);
+      setTodos(oldStateTodo);
     },
     completeTodo: index => {
       const reStateTodo = todos.map((item, _index) => {

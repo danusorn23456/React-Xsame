@@ -1,21 +1,22 @@
 import React from "react";
-import TodoInput from "../stateful/inputState";
+import InputState from "../stateful/InputState";
 
 //Stateless Component
 
 const TodoForm = ({ saveTodo }) => {
-
-  const { text, onChangeHandle, reset } = TodoInput("");
+  const { text, onChangeHandle, reset } = InputState("");
 
   return (
-    <form className="todo-form"
+    <form
+      className="todo-form"
       onSubmit={e => {
         e.preventDefault();
         saveTodo(text);
         reset();
       }}
     >
-      <input className="input-box neumorp"
+      <input
+        className="input-box neumorp"
         type="text"
         placeholder="what you want todo ?"
         onChange={event => {

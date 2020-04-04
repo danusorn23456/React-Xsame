@@ -3,7 +3,6 @@ import React, { Fragment } from "react";
 //Stateless Component
 
 const TodoList = ({ todos, deleteTodo, completeTodo, saveTodo }) => {
-
   return (
     <Fragment>
       <ul className="unorder-wrapper">
