@@ -9,6 +9,7 @@ export default () => {
       img: "nk1",
       designer: "Guitar",
       unitPrice: 110,
+      type: "Sport",
     },
     {
       id: "add1",
@@ -17,6 +18,7 @@ export default () => {
       img: "add1",
       designer: "Kith Unveil",
       unitPrice: 130,
+      type: "Sport",
     },
     {
       id: "vn1",
@@ -25,6 +27,7 @@ export default () => {
       img: "vn1",
       designer: "Kreater",
       unitPrice: 90,
+      type: "Fashion",
     },
     {
       id: "nk2",
@@ -33,6 +36,7 @@ export default () => {
       img: "nk2",
       designer: "Xeus",
       unitPrice: 110,
+      type: "Fashion",
     },
     {
       id: "nk3",
@@ -41,6 +45,7 @@ export default () => {
       img: "nk3",
       designer: "Xeus",
       unitPrice: 110,
+      type: "Fashion",
     },
     {
       id: "add3",
@@ -49,6 +54,7 @@ export default () => {
       img: "add3",
       designer: "Kith Unveil",
       unitPrice: 130,
+      type: "Limited",
     },
     {
       id: "vn2",
@@ -57,6 +63,7 @@ export default () => {
       img: "vn2",
       designer: "Xeus",
       unitPrice: 110,
+      type: "Limited",
     },
     {
       id: "nk4",
@@ -65,6 +72,7 @@ export default () => {
       img: "nk4",
       designer: "Xeus",
       unitPrice: 110,
+      type: "Limited",
     },
     {
       id: "add2",
@@ -73,6 +81,7 @@ export default () => {
       img: "add2",
       designer: "Kith Unveil",
       unitPrice: 130,
+      type: "Old school",
     },
     {
       id: "vn3",
@@ -81,6 +90,7 @@ export default () => {
       img: "vn3",
       designer: "Xeus",
       unitPrice: 110,
+      type: "Old school",
     },
     {
       id: "add4",
@@ -89,15 +99,17 @@ export default () => {
       img: "add4",
       designer: "Kith Unveil",
       unitPrice: 130,
+      type: "Old school",
     },
     {
-        id: "vn4",
-        product: "Vans",
-        model: "Runing Shoe Type a",
-        img: "vn4",
-        designer: "Xeus",
-        unitPrice: 110,
-      },
+      id: "vn4",
+      product: "Vans",
+      model: "Runing Shoe Type a",
+      img: "vn4",
+      designer: "Xeus",
+      unitPrice: 110,
+      type: "Old school",
+    },
   ]);
 
   return {

@@ -1,16 +1,32 @@
 import React from "react";
 import "./card.css";
-const Card = ({product}) => {
+
+const Card = ({ product, productPreview, preview }) => {
   return (
-    <li key={String(product.id)} className="card">
+    <li key={product.id} className={`card`}>
       <div className="card-content">
+        <button className="add-to-cart">
+          <span className="horizontal-line"></span>
+          <span className="vertical-line"></span>
+        </button>
         <header>
           <h1>{product.product}</h1>
           <p className="product-model">{product.model}</p>
         </header>
-        <figure className="product-img">
-          {product.img !== '' && 
-          <img src={require(`../../../figure/${product.img}.png`)} alt="shoe"/>}
+        <figure
+          onClick={() => {
+            if (preview === "") {
+              productPreview(product);
+            }
+          }}
+        >
+          {product.img !== "" && (
+            <img
+              className="product-img"
+              src={require(`../../../figure/${product.img}.png`)}
+              alt="shoe"
+            />
+          )}
         </figure>
         <div className="product-details">
           <div className="product-designer">

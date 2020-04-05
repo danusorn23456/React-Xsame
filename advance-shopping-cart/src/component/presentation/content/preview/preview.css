@@ -1,0 +1,31 @@
+.preview{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    animation: fadeIn 233ms linear 1;
+    display: grid;
+    grid-template:
+    'preview product'1fr/
+    1fr 1fr;
+}
+
+.preview{
+    pointer-events: unset;
+}
+
+.preview-product > .card{
+    padding-top: 25%;
+    border-bottom: none;
+}
+
+.preview-product > li{
+    height: 100vh;
+}
+
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 100%;}
+}
